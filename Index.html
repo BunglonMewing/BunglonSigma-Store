@@ -1,0 +1,163 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BunglonSigma Store - Top Up FF Termurah</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #000000, #1a1a1a);
+      color: white;
+      animation: rgb-bg 10s infinite alternate;
+    }@keyframes rgb-bg {
+  0% { background-color: #1a1a1a; }
+  25% { background-color: #222244; }
+  50% { background-color: #441a44; }
+  75% { background-color: #1a4444; }
+  100% { background-color: #1a1a1a; }
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #111;
+  border-bottom: 2px solid #444;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+  color: #00ffcc;
+}
+
+header p {
+  font-style: italic;
+  color: #ccc;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.card {
+  background: #222;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  width: 180px;
+  text-align: center;
+  border: 1px solid #00ffcc;
+  box-shadow: 0 0 10px #00ffcc50;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  font-size: 1.1em;
+}
+
+.card p {
+  margin: 0 0 10px;
+  color: #ffcc00;
+}
+
+.card button {
+  background: #00ffcc;
+  color: #000;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:disabled {
+  background: #444;
+  color: #999;
+}
+
+.section {
+  padding: 2rem;
+  background: #111;
+  border-top: 2px solid #444;
+}
+
+.section h2 {
+  text-align: center;
+  color: #00ffcc;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #000;
+  color: #999;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TOP UP DIAMOND FREE FIRE TERMURAH!</h1>
+    <p>Proses Cepat & Aman 100%</p>
+  </header>  <div class="container">
+    <!-- Semua produk -->
+    <script>
+      const produk = [
+        { dm: "5", harga: "1.530" },
+        { dm: "10", harga: "2.550" },
+        { dm: "12", harga: "2.626" },
+        { dm: "20", harga: "4.591" },
+        { dm: "25", harga: "5.561" },
+        { dm: "30", harga: "6.361" },
+        { dm: "40", harga: "Eror" },
+        { dm: "50", harga: "8.419" },
+        { dm: "70", harga: "10.499" },
+        { dm: "80", harga: "11.934" },
+        { dm: "90", harga: "13.577" },
+        { dm: "100", harga: "14.400" },
+        { dm: "120", harga: "17.115" },
+        { dm: "140", harga: "19.580" },
+        { dm: "150", harga: "21.224" },
+        { dm: "160", harga: "22.867" },
+        { dm: "190", harga: "26.155" },
+        { dm: "425", harga: "56.740" },
+        { dm: "500", harga: "66.602" },
+        { dm: "510", harga: "68.245" },
+        { dm: "545", harga: "72.355" },
+        { dm: "565", harga: "74.820" },
+        { dm: "635", harga: "83.860" },
+        { dm: "720", harga: "93.900" }
+      ];document.addEventListener("DOMContentLoaded", () => {
+    const container = document.querySelector(".container");
+    produk.forEach(item => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <h3>${item.dm} DM</h3>
+        <p>${item.harga === "Eror" ? "Eror" : `Rp ${item.harga}`}</p>
+        ${item.harga === "Eror" ? 
+          '<button disabled>Eror</button>' : 
+          `<a href='https://wa.me/6285194229796?text=Halo%20saya%20mau%20beli%20${item.dm}%20DM' target='_blank'><button>Pesan Sekarang</button></a>`}
+      `;
+      container.appendChild(card);
+    });
+  });
+</script>
+
+  </div>  <div class="section">
+    <h2>Format Pemesanan:</h2>
+    <pre style="text-align:center; color: #ccc;">
+ID Free Fire:
+Nickname:
+Jumlah Diamond:
+Bukti Transfer:
+    </pre>
+    <h3 style="text-align:center;">Transfer ke: <span style="color:#00ffcc">085194229796 (Dana)</span></h3>
+  </div>  <footer>
+    © 2025 BunglonSigma Store
+  </footer>
+</body>
+</html>
